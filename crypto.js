@@ -238,7 +238,7 @@ $(window).on("load", function () {
   // 20 RANDOMIZED COINS API APPEND;
   function rndmCryptoCall(fullCrptlist) {
     const randomizedCoins = shuffleRndCoins(fullCrptlist);
-    const lessThanhndrd = randomizedCoins.slice(0, 18);
+    const lessThanhndrd = randomizedCoins.slice(0, 8);
     console.log(lessThanhndrd);
     const numAjaxCalls = lessThanhndrd.length;
     console.log(numAjaxCalls);
